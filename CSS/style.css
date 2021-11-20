@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 100px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;   /* justify-content só funciona com display: flex */
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    list-style: none;    /* Tira os pontos no começo da frase */
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;             /* Alinha o texto dentro da caixa */
+    border-radius: 5px;
+    text-decoration: none;          /* tira a linha debaixo do escrito */
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
